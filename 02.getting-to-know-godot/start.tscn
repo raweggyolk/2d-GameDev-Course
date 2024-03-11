@@ -4,7 +4,7 @@
 [ext_resource type="TileSet" uid="uid://crkgfdw1y80hc" path="res://levels/rooms/tileset_bridges.tres" id="2_vnf5n"]
 [ext_resource type="TileSet" uid="uid://cqb2wtrubw0n6" path="res://levels/rooms/tileset_invisible_walls.tres" id="3"]
 [ext_resource type="PackedScene" uid="uid://dds7yrrx56gcy" path="res://player/player.tscn" id="4_gqsof"]
-[ext_resource type="PackedScene" uid="uid://cu2rb5dl4ljte" path="res://levels/rooms/room_a.tscn" id="5_ngiew"]
+[ext_resource type="PackedScene" uid="uid://cu2rb5dl4ljte" path="res://tours/102_assemble_your_first_game/05_add_chest_that_spawns_pickups/levels/rooms/room_a.tscn" id="5_ngiew"]
 [ext_resource type="PackedScene" uid="uid://dgayuh42w4v6u" path="res://levels/rooms/room_b.tscn" id="6_7tam4"]
 [ext_resource type="PackedScene" uid="uid://cq0mmphkbrvmm" path="res://levels/rooms/room_c.tscn" id="7_ahqg4"]
 [ext_resource type="PackedScene" uid="uid://wdey00p3syru" path="res://levels/background/background_blue_sky.tscn" id="8_rpxe0"]
@@ -34,7 +34,7 @@ position = Vector2(512, 1408)
 position = Vector2(-256, -256)
 
 [node name="RoomB" parent="." instance=ExtResource("6_7tam4")]
-position = Vector2(-128, 896)
+position = Vector2(-172, 888)
 
 [node name="RoomC" parent="." instance=ExtResource("7_ahqg4")]
 position = Vector2(896, -256)
