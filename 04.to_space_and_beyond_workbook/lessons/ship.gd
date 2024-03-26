@@ -2,13 +2,12 @@ extends Sprite2D
 
 var velocity := Vector2(480, -480)
 var max_speed := normal_speed
-var boost_speed := 1500.0
-var normal_speed := 600.0
+var boost_speed := 4000.0
+var normal_speed := 2000.0
 var steering_factor := 10.0
 
 func _ready():
 	pass # Replace with function body.
-
 
 
 func _process(delta: float) -> void:
