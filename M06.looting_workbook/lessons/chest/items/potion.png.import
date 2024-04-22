@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bayg35bajtsiq"
-path="res://.godot/imported/apple.png-0abc2c210aa661f3b0466e212b3dc051.ctex"
+uid="uid://bsiupn6cle8sm"
+path="res://.godot/imported/potion.png-8245fb65e518434e450a80d103200c6d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://lessons/items/apple.png"
-dest_files=["res://.godot/imported/apple.png-0abc2c210aa661f3b0466e212b3dc051.ctex"]
+source_file="res://lessons/chest/items/potion.png"
+dest_files=["res://.godot/imported/potion.png-8245fb65e518434e450a80d103200c6d.ctex"]
 
 [params]
 
