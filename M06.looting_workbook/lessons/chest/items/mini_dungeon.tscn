@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://cit7gnkdckyux"]
+[gd_scene load_steps=13 format=3 uid="uid://cit7gnkdckyux"]
 
 [ext_resource type="Texture2D" uid="uid://114x1a0rmx4l" path="res://assets/dungeon/smooth_dungeon_tileset.png" id="1_23byv"]
 [ext_resource type="Texture2D" uid="uid://cae527caaj50v" path="res://assets/dungeon/shadow_map.png" id="2_scgab"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://l0y1k1obencd" path="res://assets/dungeon/spider_web.png" id="5_4ewcq"]
 [ext_resource type="PackedScene" uid="uid://eundh35r605v" path="res://assets/torch/torch.tscn" id="6_yhaij"]
 [ext_resource type="PackedScene" uid="uid://cam1nk408c6mm" path="res://lessons/chest/chest.tscn" id="7_yl2by"]
+[ext_resource type="PackedScene" uid="uid://c4qweex58t70l" path="res://bird.tscn" id="8_hq8cm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6s4s5"]
 texture = ExtResource("1_23byv")
@@ -331,3 +332,9 @@ position = Vector2(423, 368)
 
 [node name="Chest3" parent="." instance=ExtResource("7_yl2by")]
 position = Vector2(722, 384)
+
+[node name="Bird" parent="." instance=ExtResource("8_hq8cm")]
+position = Vector2(493, 413)
+
+[node name="Bird2" parent="." instance=ExtResource("8_hq8cm")]
+position = Vector2(710, 232)
